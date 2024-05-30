@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkslateblue;
+}
+.container{
+    background-color: white;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: cursive;
+}
+#month{
+    width: 100%;
+    background-color: chocolate;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+#day{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0;
+    color: darkgray;
+    margin: 0;
+}
+#date{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 5px 0;
+    margin: 0;
+}
+#year{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0;
+    color: darkgray;
+    margin: 0;
+}
